@@ -10,15 +10,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-// var isSymmetric = function(root) {
-//     if(this.left === null && this.right !== null){
-//         return false
-//     } if(this.left !== null && this.right === null){
-//         return false
-//     }
-    
-    
-// };
+
 
 var isSymmetric = function(node1, node2) {
     if(node2 === undefined) {
